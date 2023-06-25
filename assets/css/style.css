@@ -1,0 +1,344 @@
+body{
+    color: white;
+    background-color: black;
+    max-width:1500px ;
+    float: none;
+    margin: auto;
+    padding: auto;
+}
+
+/*-------------------------------Font-----------------------------*/
+
+
+/*-------------------------------Police titre et paragraphe-----------------------------*/
+*{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.text-bouton{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+
+h2{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sous-titre{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 22px;
+}
+
+/*-------------------------------background-----------------------------*/
+.fond-jaune-bleu{
+    background: rgb(237,222,191);
+    background: linear-gradient(90deg, rgba(237,222,191,0.4) 0%, rgba(25,88,125,0.4) 100%);
+}
+
+.fond-jaune-bleu2{
+    background: rgb(237,222,191);
+    background: linear-gradient(90deg, rgba(237,222,191,0.4) 0%, rgba(25,88,125,0.4) 100%);
+}
+
+.fond-jaune-bleu:hover{
+    background: rgb(237,222,191);
+    background: linear-gradient(90deg, rgba(237,222,191,1) 0%, rgba(25,88,125,1) 100%);
+}
+
+.fond-jaune-rouge{
+    background: rgb(237,222,191);
+    background: linear-gradient(90deg, rgba(237,222,191,0.4) 0%, rgba(137,0,8,0.4) 100%);
+}
+
+.fond-jaune-rouge:hover{
+    background: rgb(237,222,191);
+    background: linear-gradient(90deg, rgba(237,222,191,1) 0%, rgba(137,0,8,1) 100%);
+}
+
+.fond-header{
+    background-image: url(../Illustrations/Bathome1.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+.fond-header2{
+    background-image: url(../Illustrations/Game/Batgame1.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+/*-------------------------------header-----------------------------*/
+.topmenu{
+    padding:20px;
+    border-bottom: 3px solid rgba(237,222,191,0.4);
+}
+
+.logo{
+    margin-top: 10px;
+}
+.bordure{
+    border-right: 3px solid rgba(237,222,191,0.4);
+    border-left: 3px solid rgba(237,222,191,0.4);
+}
+
+.nav-link{
+    font-size: 20px;
+    color: white;
+}
+
+.nav-link:hover{
+    color:white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.text-milieu{
+    text-align: center;
+}
+
+.btn-batman{
+    background: linear-gradient(90deg, rgba(237,222,191,0.4) 0%, rgba(137,0,8,0.4) 102%);
+    border-radius: 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 15px 70px;
+    margin: 30px;
+    
+}
+
+.btn-batman:hover{
+    background: linear-gradient(90deg, rgba(237,222,191,1) 0%, rgba(137,0,8,1) 102%);
+    color: white;
+}
+
+.fleche-header{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,1) 50%);
+    padding:0px;
+    margin-top: -50px;
+
+}
+
+.banner{
+    min-height: 600px;
+}
+
+.espace-haut{
+    margin-top: 200px;
+}
+
+.petit-espace-haut{
+    margin-top: 100px;
+}
+
+#batman-au-cinema{
+    padding: 100px;
+    text-align: justify;
+}
+
+#nemesis{
+    padding: 100px;
+    text-align: justify;
+}
+
+#allie{
+    padding: 100px;
+    text-align: justify;
+}
+
+#justice-league{
+    padding: 100px;
+    text-align: justify;
+}
+
+#multimedia{
+    padding: 0px 100px 100px 100px;
+}
+
+.titre-film{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+
+.film{
+    background-image: linear-gradient(90deg, rgba(237,222,191,0.4) 0%, rgba(25,88,125,0.4) 100%);
+    padding: 0px;
+    padding-right: 10px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.fleche-right{
+    text-align: right;
+    vertical-align: middle;
+    display: table-cell;
+}
+.espace-haut-contenu{
+    padding-top: 100px;
+}
+.espace-bas-contenu{
+    padding-bottom: 100px;
+}
+
+.espace-contenu{
+    padding: 100px;
+}
+
+.espace-contenu2{
+    width: 90%;
+    text-align: center;
+}
+.espace-contenu2:hover{
+    width: 100%;
+    text-align: center;
+}
+
+.form-label{
+    text-align: left;
+}
+
+.form-batman{
+    display: block;
+    width: 100%;
+    padding: 0rem 0rem;
+    color: #c4c4c4;
+    border-bottom: 2px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right:0px;
+    background: none;
+    margin-top: 16px;
+    font-size: 15px;
+}
+
+.form-batman:focus{
+    display: block;
+    width: 100%;
+    padding: 0rem 0rem;
+    color: #c4c4c4;
+    border-bottom: 2px solid #c4c4c4;
+    border-top: 0px;
+    border-left: 0px;
+    border-right:0px;
+    background: none;
+    margin-top: 16px;
+    font-size: 15px;
+    outline:none;
+}
+
+.check-label1{
+    display: contents;
+}
+
+.text-form{
+    color: #c4c4c4;
+    font-size:15px;
+}
+
+.form-batman-select{
+    appearance: none;
+    display: block;
+    width: 100%;
+    padding: 0rem 0rem;
+    color: #c4c4c4;
+    border-bottom: 2px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right:0px;
+    background: none;
+    margin-top: 16px;
+    font-size: 15px;
+    background-image: url(../Logos/icon_flèche2_versbas.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 3px);
+    background-size: 15px;
+}
+
+.btn-newsletter{
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #eddebf, #19587d) 0.5;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 10px 20px;
+    padding: 5px 20px;
+}
+
+
+
+.text-bas-page{
+    font-size: 12px;
+}
+
+.social-bas-page{
+    margin: 10px;
+    width: 20px;
+}
+.logo-bas-page{
+    width: 40px;
+    margin: 10px;
+}
+
+.facebook{
+    margin-left: 30px;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.espace-horizontale{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nomperso{
+    margin-top: 20px;
+}
+
+.fleche-reseaux{
+    display: block;
+    position: fixed;
+    top: 30%;
+    right: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+.petit-espace-haut2{
+    padding-top: 20px;
+}
+
+.imgbatmanfond{
+    display: block;
+    position: absolute;
+    right: 0px;
+
+}
+
+
+.survoljaune:hover{
+    filter: invert(10%) sepia(49%) saturate(1406%) hue-rotate(356deg) brightness(98%) contrast(107%);
+}
+
+
+.boxvideo:hover{
+    box-shadow: 2px -1px 75px -6px rgba(245,233,152,0.75);
+-webkit-box-shadow: 2px -1px 75px -6px rgba(245,233,152,0.75);
+-moz-box-shadow: 2px -1px 75px -6px rgba(245,233,152,0.75);
+}
